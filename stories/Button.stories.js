@@ -78,7 +78,6 @@ export class DSButton extends LitElement {
 
   constructor() {
     super();
-
     this.size = 'large';
     this.variant = 'primary';
   }
