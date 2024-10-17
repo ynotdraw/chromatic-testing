@@ -8,6 +8,8 @@ test('renders a primary button', async ({ page }, testInfo) => {
   await page.waitForSelector('ds-button');
 
   // Call this when we want to test hovering, for example.
+  // Do we want to disable autosnapshot and instead be explicit?
+  // https://www.chromatic.com/docs/playwright/configure/#playwright-options
   // await takeSnapshot(page, testInfo);
 });
 
