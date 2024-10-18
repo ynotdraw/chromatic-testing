@@ -73,7 +73,7 @@ export default defineConfig({
 
   /* Run your local dev server before starting the tests */
   webServer: {
-    command: 'pnpm start',
+    command: 'pnpm http-server storybook-static --port 6006',
     url: 'http://localhost:6006/',
     reuseExistingServer: !process.env.CI,
   },
